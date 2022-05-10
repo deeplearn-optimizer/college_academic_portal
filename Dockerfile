@@ -10,17 +10,17 @@ RUN pip install djangorestframework
 RUN pip install django-filter
 RUN pip install markdown
 RUN pip install django-cors-headers
-RUN pip beautifulsoup4==4.9.1
-RUN pip cffi==1.14.0
-RUN pip django-bootstrap4==1.1.1
-RUN pip django-misaka==0.2.1
-RUN pip houdini.py==0.1.0
-RUN pip misaka==2.1.1
-RUN pip pycparser==2.20
-RUN pip Pygments==2.6.1
-RUN pip pytz==2020.1
-RUN pip soupsieve==2.0.1
-RUN pip sqlparse==0.3.1
+RUN pip install beautifulsoup4==4.9.1
+RUN pip install cffi==1.14.0
+RUN pip install django-bootstrap4==1.1.1
+RUN pip install django-misaka==0.2.1
+RUN pip install houdini.py==0.1.0
+RUN pip install misaka==2.1.1
+RUN pip install pycparser==2.20
+RUN pip install Pygments==2.6.1
+RUN pip install pytz==2020.1
+RUN pip install soupsieve==2.0.1
+RUN pip install sqlparse==0.3.1
 
 WORKDIR /home
 EXPOSE 8000
